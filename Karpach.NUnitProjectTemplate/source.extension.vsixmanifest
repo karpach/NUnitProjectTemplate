@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="3b532053-22ac-425d-9be6-06cd8a26f16d" Version="1.1" Language="en-US" Publisher="Viktar Karpach" />
+    <Identity Id="3b532053-22ac-425d-9be6-06cd8a26f16d" Version="1.2" Language="en-US" Publisher="Viktar Karpach" />
     <DisplayName>NUnit Project Template</DisplayName>
-    <Description xml:space="preserve">Creates NUnit Test Project</Description>
+    <Description xml:space="preserve">Creates NUnit Test Project and Item Template</Description>
     <MoreInfo>http://www.karpach.com</MoreInfo>
     <License>Ms-PL.rtf</License>
     <Icon>NUnit.ico</Icon>
@@ -18,5 +18,6 @@
   </Dependencies>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Karpach.NUnitTemplate.Project" d:TargetPath="|Karpach.NUnitTemplate.Project;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="%CurrentProject%" d:TargetPath="|%CurrentProject%;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
   </Assets>
 </PackageManifest>

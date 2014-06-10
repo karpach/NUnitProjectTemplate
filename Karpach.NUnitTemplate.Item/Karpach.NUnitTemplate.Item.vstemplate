@@ -1,0 +1,18 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>NUnitTestFixture.cs</DefaultName>
+    <Name>NUnit Test</Name>
+    <Description>Creates NUnit Test Class</Description>
+    <ProjectType>CSharp</ProjectType>        
+    <SortOrder>10</SortOrder>
+    <Icon>Karpach.NUnitTemplate.Item.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>nunit.framework</Assembly>
+      </Reference>      
+    </References>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">NUnitTestFixtureItem.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

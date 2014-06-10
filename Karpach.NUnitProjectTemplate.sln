@@ -5,11 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karpach.NUnitProjectTemplat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karpach.NUnitTemplate.Project", "Karpach.NUnitTemplate.Project\Karpach.NUnitTemplate.Project.csproj", "{6E0A1C07-292D-467D-8D77-51AAD741A28B}"
 EndProject
-Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karpach.NUnitTemplate.Item", "Karpach.NUnitTemplate.Item\Karpach.NUnitTemplate.Item.csproj", "{6C637595-628D-4CB2-A4EC-670E6E7BD5C1}"
+EndProject
+Global	
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -23,6 +21,10 @@ Global
 		{6E0A1C07-292D-467D-8D77-51AAD741A28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E0A1C07-292D-467D-8D77-51AAD741A28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E0A1C07-292D-467D-8D77-51AAD741A28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C637595-628D-4CB2-A4EC-670E6E7BD5C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C637595-628D-4CB2-A4EC-670E6E7BD5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C637595-628D-4CB2-A4EC-670E6E7BD5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C637595-628D-4CB2-A4EC-670E6E7BD5C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
