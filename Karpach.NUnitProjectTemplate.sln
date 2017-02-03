@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karpach.NUnitProjectTemplate", "Karpach.NUnitProjectTemplate\Karpach.NUnitProjectTemplate.csproj", "{394373CE-ECC3-4D25-869F-AEE74DBAE835}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karpach.NUnitTemplate.Project", "Karpach.NUnitTemplate.Project\Karpach.NUnitTemplate.Project.csproj", "{6E0A1C07-292D-467D-8D77-51AAD741A28B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karpach.NUnitTemplate.Item", "Karpach.NUnitTemplate.Item\Karpach.NUnitTemplate.Item.csproj", "{6C637595-628D-4CB2-A4EC-670E6E7BD5C1}"
 EndProject
-Global	
+Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
